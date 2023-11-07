@@ -1,9 +1,9 @@
 MAJOR=2
 MINOR=1
-CC?=gcc
-CFLAGS?=-g -O2 -Wall
-CPPFLAGS?=-I. -DVERSION=\"$(MAJOR).$(MINOR)\"
-prefix?=/usr/local
+CC=gcc
+CFLAGS=-g -O2 -Wall
+CPPFLAGS=-I. -DVERSION=\"$(MAJOR).$(MINOR)\"
+prefix=/usr/local
 OBJS=\
 	cbtcommon/debug.o\
 	cbtcommon/hash.o\
